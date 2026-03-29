@@ -1,6 +1,9 @@
 # This file is managed by Keycloakify, do not edit it manually.
 
 # === Owned files start ===
+# login/i18n.ts
+# login/assets/img/auth-logo.svg
+# login/components/Template/Template.tsx
 # === Owned files end =====
 
 # === @keycloakify/login-ui-storybook v250004.2.0 ===
@@ -45,7 +48,6 @@
 /login/pages/webauthn-register/Page.stories.tsx
 
 # === @oussemasahbeni/keycloakify-login-shadcn v250004.0.18 ===
-# /login/i18n.ts
 /login/index.css
 /login/KcContext.ts
 /login/KcPage.tsx
@@ -73,10 +75,8 @@
 /login/pages/PageIndex.tsx
 /login/shared/getColorScheme.ts
 /login/shared/redirectUrlOrigin.ts
-# /login/assets/img/auth-logo.svg
 /login/assets/img/shape.svg
 /login/components/Template/index.ts
-# /login/components/Template/Template.tsx
 /login/components/Template/useAuthChecker.ts
 /login/components/Template/useInitializeTemplate.ts
 /login/components/ui/Langauges.tsx
