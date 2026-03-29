@@ -45,7 +45,7 @@
 /login/pages/webauthn-register/Page.stories.tsx
 
 # === @oussemasahbeni/keycloakify-login-shadcn v250004.0.18 ===
-/login/i18n.ts
+# /login/i18n.ts
 /login/index.css
 /login/KcContext.ts
 /login/KcPage.tsx
@@ -76,7 +76,7 @@
 # /login/assets/img/auth-logo.svg
 /login/assets/img/shape.svg
 /login/components/Template/index.ts
-/login/components/Template/Template.tsx
+# /login/components/Template/Template.tsx
 /login/components/Template/useAuthChecker.ts
 /login/components/Template/useInitializeTemplate.ts
 /login/components/ui/Langauges.tsx

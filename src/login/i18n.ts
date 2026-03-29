@@ -1,0 +1,47 @@
+/**
+ * WARNING: Before modifying this file, run the following command:
+ *
+ * $ npx keycloakify own --path "login/i18n.ts"
+ *
+ * This file is provided by @oussemasahbeni/keycloakify-login-shadcn version 250004.0.18.
+ * It was copied into your repository by the postinstall script: `keycloakify sync-extensions`.
+ */
+
+/* eslint-disable */
+
+import { i18nBuilder } from "@keycloakify/login-ui/i18n";
+import type { ThemeName } from "../kc.gen";
+
+/** @see: https://docs.keycloakify.dev/features/i18n */
+const { I18nProvider, useI18n } = i18nBuilder
+    .withThemeName<ThemeName>()
+    .withCustomTranslations({
+        en: {
+            welcomeMessage:
+                "Welcome to 3-Istor Cloud Platform Authentication - Where your work becomes simple, organized, and secure.",
+            loginAccountTitle: "Login to your account",
+            registerTitle: "Register a new account",
+            email: "Email",
+            noAccount: "Don't have an account?",
+            doRegister: "Sign up",
+            "organization.selectTitle": "Choose Your Organization",
+            "organization.pickPlaceholder": "Pick an organization to continue",
+            "identity-provider-login-last-used": "Last used"
+        },
+        fr: {
+            welcomeMessage:
+                "Bienvenue sur la plateforme d'authentification 3-Istor Cloud : là où votre travail devient simple, organisé et sécurisé.",
+            loginAccountTitle: "Connectez-vous à votre compte",
+            registerTitle: "Créer    un nouveau compte",
+            email: "E-mail",
+            doRegister: "S'inscrire",
+            noAccount: "Vous n'avez pas de compte?",
+            "organization.selectTitle": "Choisissez Votre Organisation",
+            "organization.pickPlaceholder":
+                "Sélectionnez une organisation pour continuer",
+            "identity-provider-login-last-used": "Dernière utilisation"
+        }
+    })
+    .build();
+
+export { I18nProvider, useI18n };
