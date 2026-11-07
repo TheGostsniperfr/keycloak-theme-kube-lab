@@ -4,6 +4,7 @@
 # login/i18n.ts
 # login/assets/img/auth-logo.svg
 # login/components/Template/Template.tsx
+# login/components/WebAuthnConditionalUi/useLogic.tsx
 # === Owned files end =====
 
 # === @keycloakify/login-ui-storybook v250004.2.0 ===
@@ -95,7 +96,6 @@
 /login/components/UserProfileFormFields/TextareaTag.tsx
 /login/components/UserProfileFormFields/UserProfileFormFields.tsx
 /login/components/WebAuthnConditionalUi/index.ts
-/login/components/WebAuthnConditionalUi/useLogic.tsx
 /login/components/WebAuthnConditionalUi/WebAuthnConditionalUi.tsx
 /login/pages/code/index.ts
 /login/pages/code/Page.stories.tsx
