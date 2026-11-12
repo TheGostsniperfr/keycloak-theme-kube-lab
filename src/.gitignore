@@ -5,6 +5,7 @@
 # login/assets/img/auth-logo.svg
 # login/components/Template/Template.tsx
 # login/components/WebAuthnConditionalUi/useLogic.tsx
+# login/pages/webauthn-register/useLogic.ts
 # === Owned files end =====
 
 # === @keycloakify/login-ui-storybook v250004.2.0 ===
@@ -221,7 +222,6 @@
 /login/pages/webauthn-register/index.ts
 /login/pages/webauthn-register/Page.stories.tsx
 /login/pages/webauthn-register/Page.tsx
-/login/pages/webauthn-register/useLogic.ts
 /login/assets/fonts/geist/Geist-Black.woff2
 /login/assets/fonts/geist/Geist-Bold.woff2
 /login/assets/fonts/geist/Geist-Light.woff2
