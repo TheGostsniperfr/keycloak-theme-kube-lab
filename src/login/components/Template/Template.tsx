@@ -13,7 +13,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ModeToggle } from "@/login/components/ui/ThemeToggle";
-import { redirectUrlOrigin } from "@/login/shared/redirectUrlOrigin";
+import { getRedirectUrlOrigin } from "@/login/shared/redirectUrlOrigin";
 import { kcSanitize } from "@keycloakify/login-ui/kcSanitize";
 import { useKcClsx } from "@keycloakify/login-ui/useKcClsx";
 import {
@@ -92,7 +92,7 @@ export function Template(props: {
                 {/*  navigation */}
                 <div className="absolute top-4 start-4 z-20 flex gap-2">
                     <Button type="button" variant="outline" size="icon" asChild>
-                        <a href={kcContext.client?.baseUrl ?? redirectUrlOrigin}>
+                        <a href={kcContext.client?.baseUrl || getRedirectUrlOrigin(kcContext.pageId)}>
                             <FiHome />
                         </a>
                     </Button>
