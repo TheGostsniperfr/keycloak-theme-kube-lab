@@ -2,9 +2,11 @@
 
 # === Owned files start ===
 # login/i18n.ts
+# login/shared/redirectUrlOrigin.ts
 # login/assets/img/auth-logo.svg
 # login/components/Template/Template.tsx
 # login/components/WebAuthnConditionalUi/useLogic.tsx
+# login/pages/error/Page.tsx
 # login/pages/webauthn-register/useLogic.ts
 # === Owned files end =====
 
@@ -76,7 +78,6 @@
 /login/mocks/KcPageStory.tsx
 /login/pages/PageIndex.tsx
 /login/shared/getColorScheme.ts
-/login/shared/redirectUrlOrigin.ts
 /login/assets/img/shape.svg
 /login/components/Template/index.ts
 /login/components/Template/useAuthChecker.ts
@@ -109,7 +110,6 @@
 /login/pages/delete-credential/Page.tsx
 /login/pages/error/index.ts
 /login/pages/error/Page.stories.tsx
-/login/pages/error/Page.tsx
 /login/pages/frontchannel-logout/index.ts
 /login/pages/frontchannel-logout/Page.stories.tsx
 /login/pages/frontchannel-logout/Page.tsx
